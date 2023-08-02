@@ -10,5 +10,15 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
+nav {
+    position: relative;
+    z-index: 100;
+    border-bottom: 3px solid white;
+    padding: 0.5em;
+}
 
+nav a {
+    color: #8caaee;
+    font-size: 48px;
+}
 
