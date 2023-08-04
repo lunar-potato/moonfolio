@@ -3,11 +3,30 @@
 }
 
 body {
+    height: 100%;
     margin: 0;
     padding: 0;
     line-height: 1.5;
     background-color: #303446;
     font-family: 'Montserrat', sans-serif;
+}
+
+.hero-banner {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), URL("../images/moon-background.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-info {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
 
 nav {
