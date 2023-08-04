@@ -1,3 +1,8 @@
+:root {
+    --yellow: #e5c890;
+    --white: #ffffff;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -9,6 +14,14 @@ body {
     line-height: 1.5;
     background-color: #303446;
     font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: var(--yellow);
+}
+
+.heading {
+    color: var(--yellow);
 }
 
 .hero-banner {
@@ -31,12 +44,17 @@ body {
 
 .hero-info h1 {
     font-size: 48px;
+    font-weight: 700;
+}
+
+.hero-info p{
+    font-size: 18px;
 }
 
 nav {
     position: relative;
     background-color: #232634;
-    border-bottom: white 3px solid;   
+    border-bottom: var(--white) 3px solid;   
     padding: 0.5em;
     z-index: 100;
 }
@@ -52,3 +70,10 @@ nav {
     padding: 0 7%;
 }
 
+#about {
+    background-color: #414559;
+    padding: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
