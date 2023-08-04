@@ -10,3 +10,21 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+nav {
+    position: relative;
+    background-color: #232634;
+    border-bottom: white 3px solid;   
+    padding: 0.5em;
+    z-index: 100;
+}
+
+.icons {
+    text-align: center;
+    justify-content: space-around;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.icons img {
+    padding: 0 7%;
+}
