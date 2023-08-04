@@ -7,10 +7,18 @@ body {
     padding: 0;
     line-height: 1.5;
     background-color: #303446;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
+nav {
+    position: relative;
+    z-index: 100;
+    border-bottom: 3px solid white;
+    padding: 0.5em;
+}
 
-
-
+nav a {
+    color: #8caaee;
+    font-size: 48px;
+}
 
