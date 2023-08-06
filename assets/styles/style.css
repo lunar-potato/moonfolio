@@ -77,3 +77,70 @@ nav {
     font-size: 20px;
     color: white;
 }
+
+.portfolio-grid {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;    
+    padding: 205px 0px 100px 0px;
+    margin-bottom: 200px;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 40px;
+    position: relative;
+    clear: both;
+    box-sizing: border-box;
+}
+
+.portfolio-title {
+    width: 100%;
+    height: auto;
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portfolio-title h1 {
+    font-size: 48px;
+}
+
+.background {
+    position: absolute;
+    left: -6px;
+    top: 0px;
+    color: transparent;
+    font-size: 150px;
+    font-weight: 900px;
+    opacity: .1;
+    line-height: 0;
+    -webkit-text-stroke: 1px var(--yellow);
+}
+
+.gallery-inner {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    padding-top: 105px;
+}
+
+.gallery-inner ul {
+    margin: 0px 0px 0px -50px;
+}
+
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
