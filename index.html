@@ -5,21 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <i data-lucide-name="moon-star"></i>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/styles/reset.css" />
-    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link rel="stylesheet" href="./assets/styles/style.css"/>
+    <link rel="icon" href="./assets/images/moon-star.png" type="image/x-icon"/>
     <title>Moonfolio</title>
-    <link rel="icon" href="moon-star" type="image/x-icon">
 </head>
 
 <body>
 
     <div class="hero-banner">
         <div class="hero-info">
-            <h1>Moonfolio</h1>
+            <h1>Moonfolio<img src="./assets/images/moon-star.png"></h1>
             <p>Heya! Welcome to my portfolio!</p>
         </div>
     </div>
@@ -27,15 +26,16 @@
     <nav>
         <div id="navigation">
             <div class="icons">
-                <img src="./assets/images/home.png">
-                <img src="./assets/images/folder.png">
-                <img src="./assets/images/message-circle.png">
+                <a href="#"><img src="./assets/images/home.png"></a>
+                <a href="#page-portfolio"><img src="./assets/images/folder.png"></a>
+                <a href="https://discordapp.com/users/688733809696571514"><img src="./assets/images/message-circle.png"></a>
             </div>
         </div>
     </nav>
 
     <main class="content">
         <section class="page-section" id="about">
+            <img src="./assets/images/sawako-pfp.png">
             <div class="heading"><strong>About Me</strong></div>
             <article>
                 <p>Hi! Welcome to my moonfolio! My name is Gwyneth and I am an amateur software developer. I have
@@ -58,8 +58,8 @@
                         <li class="Moonfolio">
                             <div class="gallery-inner">
                                 <figure class="picture">
-                                    <img src="./assets/images/strawberry-moon.jpg" alt="a very starry night sky">
-                                    <a class="moonfolio-link" href="https://lunar-potato.github.io/moonfolio/"></a>
+                                    <a class="moonfolio-link" href="https://lunar-potato.github.io/moonfolio/">
+                                        <img src="./assets/images/strawberry-moon.jpg" alt="a very starry night sky"></a>
                                     <div class="gal-title">
                                         <h2>
                                             <a href="https://lunar-potato.github.io/moonfolio/">Moonfolio</a>
@@ -79,9 +79,9 @@
                         <li class="Horiseon">
                             <div class="gallery-inner">
                                 <figure class="picture">
-                                    <img src="./assets/images/moon-ocean.jpg" alt="moon and ocean">
-                                    <a class="horiseon-link"
-                                        href="https://lunar-potato.github.io/website-refactoring/"></a>
+                                    <a class="horiseon-link" href="https://lunar-potato.github.io/website-refactoring/">
+                                        <img src="./assets/images/moon-ocean.jpg" alt="moon and ocean">
+                                    </a>
                                     <div class="gal-title">
                                         <h2>
                                             <a href="https://lunar-potato.github.io/website-refactoring/">Horiseon</a>
@@ -101,10 +101,10 @@
                         <li class="Prework">
                             <div class="gallery-inner">
                                 <figure class="picture">
-                                    <img src="./assets/images/moon-rabbit.jpg"
-                                        alt="looking at the moon with tree branches">
                                     <a class="prework-link"
-                                        href="https://lunar-potato.github.io/prework-study-guide/"></a>
+                                        href="https://lunar-potato.github.io/prework-study-guide/">
+                                        <img src="./assets/images/moon-rabbit.jpg"
+                                        alt="looking at the moon with tree branches"></a>
                                     <div class="gal-title">
                                         <h2>
                                             <a href="https://lunar-potato.github.io/prework-study-guide/">Prework</a>
@@ -129,17 +129,22 @@
                     <a href="mailto:gwynethbautistaa@gmail.com">Email</a>
                 </address>
                 <address>
-                    <a href="#">GitHub</a>
+                    <a href="https://github.com/lunar-potato">GitHub</a>
                 </address>
                 <address>
-                    <a href="#">Discord</a>
+                    <a href="https://discordapp.com/users/688733809696571514">Discord</a>
                 </address>
                 <address>
-                    <a href="#">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/gwyneth-bautista-284053257/">LinkedIn</a>
                 </address>
             </div>
         </section>
     </main>
+
+    <footer>
+        <h1>Moonfolio </h1>
+        <img src="./assets/images/moon-star.png">
+    </footer>
 </body>
 
 </html>
