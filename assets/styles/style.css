@@ -82,6 +82,8 @@ nav {
 
 #page-portfolio {
     min-height: 50vh;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -92,7 +94,7 @@ nav {
 }
 
 .portfolio-title h1 {
-    font-size: 48px;
+    font-size: 100px;
     display: flex;
 }
 
@@ -126,10 +128,24 @@ nav {
 
 .gal-title a {
     color: var(--yellow);
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .gal-title span {
     color: var(--white);
-    font-size: 20px;
+    font-size: 28px;
+}
+
+#contact {
+    text-align: center;
+    padding: 40px
+}
+
+address {
+    display: flex; 
+    justify-content: center;
+}
+address a {
+    color: var(--white);
+    font-size: 30px;
 }
