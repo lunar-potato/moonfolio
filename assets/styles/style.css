@@ -20,6 +20,7 @@ h1 {
     color: var(--yellow);
 }
 
+/* Styling for the hero banner */
 .hero-banner {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), URL("../images/moon-background.jpg");
     height: 50%;
@@ -48,6 +49,7 @@ h1 {
     font-size: 32px;
 }
 
+/* Navigation Styling */
 nav {
     position: relative;
     background-color: #232634;
@@ -67,6 +69,7 @@ nav {
     padding: 0 7%;
 }
 
+/* About Me Styling */
 #about {
     background-color: #414559;
     padding: 50px;
@@ -80,6 +83,7 @@ nav {
     font-size: 35px;
 }
 
+/* Work Portfolio */
 #page-portfolio {
     min-height: 50vh;
     display: flex;
@@ -136,6 +140,7 @@ nav {
     font-size: 28px;
 }
 
+/* Contact Me Styling */
 #contact {
     text-align: center;
     padding: 40px
@@ -150,6 +155,7 @@ address a {
     font-size: 30px;
 }
 
+/* Footer Styling */
 footer {
     background-color: #414559;
     text-align: center;
